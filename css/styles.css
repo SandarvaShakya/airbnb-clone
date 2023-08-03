@@ -51,7 +51,7 @@ img{
 
 @media (min-width: 720px){
     .container{
-        width: 80%;
+        width: 77%;
         max-width: 1140px;
     }
 
@@ -575,5 +575,119 @@ img{
     .city__link{
         text-decoration: none;
         color: gray;
+    }
+
+    .city__list--extended{
+        margin-top: 1.2rem;
+        margin-bottom: 4rem;
+        font-size: var(--meta-data--fs);
+        display: flex;
+        gap: 15px;
+    }
+
+    .city__list--extended a{
+        color: gray;
+        text-decoration: none;
+    }
+
+    .city__list--extended a:hover{
+        text-decoration: underline;
+    }
+
+    .city__list--extended img{
+        width: 10px;
+    }
+
+    .footer hr{
+        border-color: var(--color-box-shadow);
+    }
+
+    .container--footer-bottom{
+        padding: 3rem 0;
+    }
+
+    .list-wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .support,
+    .community,
+    .hosting,
+    .airbnb{
+        list-style-type: none;
+        font-size: var(--meta-data--fs);
+        color: black;
+    }
+
+    .list__heading{
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+
+    .list__item{
+        padding: 0.55rem 0;
+    }
+
+    .list__link{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .footer{
+        padding-bottom: 0;
+    }
+
+    .container--footer-copy{
+        font-size: var(--meta-data--fs);
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 0;
+    }
+
+    .privacy{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .privacy span:last-child{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .socials{
+        display: flex;
+        gap: 18px;
+    }
+
+    .socials h4 a{
+        display: flex;
+        gap: 8px;
+    }
+
+    .socials span,
+    .socials h4{
+        font-weight: 600;
+    }
+
+    .socials span a,
+    .socials h4 a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .socials span a:hover,
+    .socials h4 a:hover{
+        text-decoration: underline;
+    }
+
+    .socials img{
+        width: 16px;
+    }
+
+    .social{
+        display: block;
     }
 }
