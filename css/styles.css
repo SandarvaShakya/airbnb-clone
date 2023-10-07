@@ -116,7 +116,7 @@ img {
 }
 
 .rating {
-	display: flex;
+	display: none;
 	align-items: center;
 	gap: 8px;
 }
@@ -490,6 +490,53 @@ img {
 
 .social {
 	display: block;
+}
+
+.sep {
+	display: none;
+}
+
+.calendar {
+	padding-top: 28px;
+}
+
+.month {
+	width: 100%;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.month td {
+	padding: 0.75rem;
+	text-align: center;
+	margin: 1rem;
+}
+
+.days {
+	color: gray;
+	font-weight: 700;
+}
+
+.months-heading-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.calendar-extra {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.625rem 0;
+}
+
+.link {
+	color: black;
+	font-size: 0.875rem;
+	font-weight: 600;
+	padding: 0.625rem 1rem;
+	border-radius: 8px;
 }
 
 @media (min-width: 1024px) {
@@ -1200,5 +1247,13 @@ img {
 
 	.social {
 		display: block;
+	}
+
+	.sep {
+		display: initial;
+	}
+
+	.rating {
+		display: flex;
 	}
 }
