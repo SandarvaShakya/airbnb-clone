@@ -52,11 +52,24 @@
                 </div>
             </div>
         </nav>
+        <nav class="nav-m">
+            <div class="container center flex">
+                <div class="img-wrapper img__container--rotate">
+                    <img src="./images/icons/small-arrow.svg" alt="arrow">
+                </div>
+                <div class="img-wrapper img-wrapper--right">
+                    <img src="./images/icons/share.png" alt="arrow" class="share-img">
+                </div>
+                <div class="img-wrapper">
+                    <img src="./images/icons/heart.svg" alt="heart">
+                </div>
+            </div>
+        </nav>
     </header>
 
     <!-- Main Section -->
-    <main class="main">
-        <div class="container">
+    <section class="main">
+        <div class="container f-reverse">
             <h2 class="hero__heading">Salon de Kathmandu B&B - Room 1 (with breakfast)</h2>
             <!-- meta datas -->
             <div class="meta-data__container">
@@ -95,43 +108,47 @@
                 </a>
                 <div class="img__container--hero">
                     <img 
-                        src="https://a0.muscache.com/im/pictures/6d32edc4-d842-4927-9375-504b4b1801da.jpg?im_w=1200" 
+                        src="./images/room1.webp" 
                         alt="room"
                     >
                 </div>
                 <div class="img__collage">
                     <div class="img__container">
                         <img
-                            src="https://a0.muscache.com/im/pictures/914043e6-8675-4509-a68a-78eec383a723.jpg?im_w=720"
+                            src="./images/room2.webp"
                             alt="room"
                         >
                     </div>
                     <div class="img__container">
                         <img
-                            src="https://a0.muscache.com/im/pictures/410c84ae-fdb0-4e91-9766-cede4f05423c.jpg?im_w=720"
+                            src="./images/room3.webp"
                             alt="room"
                         >
                     </div>
                     <div class="img__container">
                         <img
-                            src="https://a0.muscache.com/im/pictures/72928c87-5f9e-4adf-b41b-93f7eeb032fe.jpg?im_w=720"
+                            src="./images/room4.webp"
                             alt="room"
                         >
                     </div>
                     <div class="img__container">
                         <img
-                            src="https://a0.muscache.com/im/pictures/aa9f07b5-b44d-4cf7-a335-26f6339beb96.jpg?im_w=720"
+                            src="./images/romm5.webp"
                             alt="room"
                         >
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+
+    <div class="container-m">
+        <hr>
+    </div>
 
     <!-- Details Section -->
     <section class="section">
-        <div class="container container--details">
+        <div class="container container--details container-m">
             <div class="section__content">
                 <div class="heading">
                     <div class="heading__title">
@@ -182,6 +199,33 @@
                 <p class="section__content-paragraph">
                     Lazimpat is popular residential area for both foreign and wealthy local people because of its very clean, convenient and safe environment. The city center, Durbar Marg and Thamel, is all located in walking distance. Convenient location, safe area, super clean house with beautiful garden and good foods, any reason to hesitate?;)
                 </p>
+                <button class="show-more">
+                    Show More
+                    <div class="img__container">
+                        <img src="./images/icons/small-arrow.svg" alt="arrow">
+                    </div>
+                </button>
+                <div class="image-group-m">
+                    <div class="img__container">
+                        <img src="./images/room1-1.webp" alt="room">
+                    </div>
+                    <div class="img__container">
+                        <img src="./images/room1-3.webp" alt="room">
+                    </div>
+                    <div class="img__container">
+                        <img src="./images/room1-2.webp" alt="room">
+                    </div>
+                    <div class="img__container">
+                        <img src="./images/room1-4.webp" alt="room">
+                    </div>
+                    <div class="img__container">
+                        <img src="./images/room4.webp" alt="room">
+                    </div>
+                    <div class="img__container">
+                        <img src="./images/romm5.webp" alt="room">
+                    </div>
+                </div>
+                <button class="btn btn-m">Show all photos</button>
                 <hr>
                 <!-- sleeping arrangements section -->
                 <h3 class="heading--arrangements">Sleeping arrangements</h3>
@@ -438,9 +482,52 @@
         </div>
     </section>
 
+    <section>
+        <div class="container container-m">
+            <span class="rating rating--large">
+                <div class="rating-img__container"><img src="./images/icons/rating.svg" alt="rating-star"></div>
+                <span>4.88 (249 reviews)</span>
+            </span>
+            <div class="detailed-rating">
+                <ul class="rating-list">
+                    <li class="rating-list__item">
+                        <p class="item-title">Cleanliness</p>
+                        <span class="rating-bar"></span>
+                        <span class="rating-list__rating">4.9</span>
+                    </li>
+                    <li class="rating-list__item">
+                        <p class="item-title">Communication</p>
+                        <span class="rating-bar"></span>
+                        <span class="rating-list__rating">4.9</span>
+                    </li>
+                    <li class="rating-list__item">
+                        <p class="item-title">Check-in</p>
+                        <span class="rating-bar"></span>
+                        <span class="rating-list__rating">4.9</span>
+                    </li>
+                    <li class="rating-list__item">
+                        <p class="item-title">Accuracy</p>
+                        <span class="rating-bar"></span>
+                        <span class="rating-list__rating">4.9</span>
+                    </li>
+                    <li class="rating-list__item">
+                        <p class="item-title">Location</p>
+                        <span class="rating-bar"></span>
+                        <span class="rating-list__rating">4.8</span>
+                    </li>
+                    <li class="rating-list__item">
+                        <p class="item-title">Value</p>
+                        <span class="rating-bar"></span>
+                        <span class="rating-list__rating">4.8</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container container-m">
             <h2>Explore other options in and around Kathmandu</h2>
             <ul class="city__list">
                 <li class="city__item"><a href="#" class="city__link">Pokhara</a></li>
@@ -473,7 +560,7 @@
             </span>
         </div>
         <hr>
-        <div class="container container--footer-bottom">
+        <div class="container container-m container--footer-bottom">
             <ul class="list-wrapper">
                 <ul class="support">
                     <li class="list__heading">Support</li>
@@ -510,7 +597,7 @@
                 </ul>
             </ul>
         </div>
-        <div class="container">
+        <div class="container container-m">
             <hr>
         </div>
         <div class="container container--footer-copy">
